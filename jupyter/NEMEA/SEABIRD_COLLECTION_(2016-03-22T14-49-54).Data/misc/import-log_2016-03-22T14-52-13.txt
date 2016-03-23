@@ -1,0 +1,2 @@
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/produto_redondo.cnv
+	1 station(s) read from file.

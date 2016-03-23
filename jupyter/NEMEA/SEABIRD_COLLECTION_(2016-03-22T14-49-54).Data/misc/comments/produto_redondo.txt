@@ -1,0 +1,227 @@
+* FileName = D:\ACEX\MCTV001.hex
+* Software Version Seasave V 7.17
+* Temperature SN = 4821
+* Conductivity SN = 3367
+* Number of Bytes Per Scan = 18
+* Number of Voltage Words = 2
+* Number of Scans Averaged by the Deck Unit = 1
+* System UpLoad Time = Jun 12 2012 10:34:17
+* NMEA Latitude =  25 59.557 S
+* NMEA Longitude =  045 32.712 W
+* NMEA UTC (Time) = Jun 06 2012 13:33:00
+* Store Lat/Lon Data = Add to Header Only
+** H38
+** NHo Cruzeiro do Sul
+** 222
+** MCT V ACEx
+** Esta��o 001
+**  25 59.557 S
+**  045 32.712 W
+**   12/06/2012 13:33Z
+**   496
+** 9P46375-0882
+**   CT Bambace
+# nquan = 14
+# nvalues = 442
+# units = specified
+# name 0 = scan: Scan Count
+# name 1 = timeJ: Julian Days
+# name 2 = dz/dtM: Descent Rate [m/s]
+# name 3 = prDM: Pressure, Digiquartz [db]
+# name 4 = t090C: Temperature [ITS-90, deg C]
+# name 5 = c0S/m: Conductivity [S/m]
+# name 6 = sbeox0ML/L: Oxygen, SBE 43 [ml/l]
+# name 7 = depSM: Depth [salt water, m], lat = -29.00
+# name 8 = potemp090C: Potential Temperature [ITS-90, deg C]
+# name 9 = sal00: Salinity, Practical [PSU]
+# name 10 = density00: Density [density, kg/m^3]
+# name 11 = sigma-t00: Density [sigma-t, kg/m^3 ]
+# name 12 = oxsolML/L: Oxygen Saturation, Garcia & Gordon [ml/l]
+# name 13 = flag: flag
+# span 0 =       5900,      35791
+# span 1 = 164.443319, 164.457734
+# span 2 =   -163.087,    687.601
+# span 3 =      5.028,    449.763
+# span 4 =     8.0123,    22.0861
+# span 5 =   3.646622,   5.160608
+# span 6 =     3.1742,     4.5349
+# span 7 =      5.000,    446.000
+# span 8 =     7.9662,    22.0851
+# span 9 =    30.7209,    36.4922
+# span 10 =  1020.9669,  1029.3650
+# span 11 =    20.9449,    27.3355
+# span 12 =    4.95885,    6.59536
+# span 13 = 0.0000e+00, 0.0000e+00
+# interval = meters: 1
+# start_time = Jun 12 2012 10:34:17 [System UpLoad Time]
+# bad_flag = -9.990e-29
+# <Sensors count="7" >
+#   <sensor Channel="1" >
+#     <!-- Frequency 0, Temperature -->
+#     <TemperatureSensor SensorID="55" >
+#       <SerialNumber>4821</SerialNumber>
+#       <CalibrationDate>05-sep-07</CalibrationDate>
+#       <UseG_J>1</UseG_J>
+#       <A>0.00000000e+000</A>
+#       <B>0.00000000e+000</B>
+#       <C>0.00000000e+000</C>
+#       <D>0.00000000e+000</D>
+#       <F0_Old>0.000</F0_Old>
+#       <G>4.38936700e-003</G>
+#       <H>6.42490053e-004</H>
+#       <I>2.16048220e-005</I>
+#       <J>1.78439095e-006</J>
+#       <F0>1000.000</F0>
+#       <Slope>1.00000000</Slope>
+#       <Offset>0.0000</Offset>
+#     </TemperatureSensor>
+#   </sensor>
+#   <sensor Channel="2" >
+#     <!-- Frequency 1, Conductivity -->
+#     <ConductivitySensor SensorID="3" >
+#       <SerialNumber>3367</SerialNumber>
+#       <CalibrationDate>05-mar-08</CalibrationDate>
+#       <UseG_J>1</UseG_J>
+#       <!-- Cell const and series R are applicable only for wide range sensors. -->
+#       <SeriesR>0.0000</SeriesR>
+#       <CellConst>2000.0000</CellConst>
+#       <ConductivityType>0</ConductivityType>
+#       <Coefficients equation="0" >
+#         <A>0.00000000e+000</A>
+#         <B>0.00000000e+000</B>
+#         <C>0.00000000e+000</C>
+#         <D>0.00000000e+000</D>
+#         <M>0.0</M>
+#         <CPcor>-9.57000000e-008</CPcor>
+#       </Coefficients>
+#       <Coefficients equation="1" >
+#         <G>-1.00394901e+001</G>
+#         <H>1.53275836e+000</H>
+#         <I>-1.40812573e-003</I>
+#         <J>2.07124196e-004</J>
+#         <CPcor>-9.57000000e-008</CPcor>
+#         <CTcor>3.2500e-006</CTcor>
+#         <!-- WBOTC not applicable unless ConductivityType = 1. -->
+#         <WBOTC>0.00000000e+000</WBOTC>
+#       </Coefficients>
+#       <Slope>1.00000000</Slope>
+#       <Offset>0.00000</Offset>
+#     </ConductivitySensor>
+#   </sensor>
+#   <sensor Channel="3" >
+#     <!-- Frequency 2, Pressure, Digiquartz with TC -->
+#     <PressureSensor SensorID="45" >
+#       <SerialNumber>106018</SerialNumber>
+#       <CalibrationDate>28-sep-07</CalibrationDate>
+#       <C1>-4.775831e+004</C1>
+#       <C2>6.115646e-001</C2>
+#       <C3>1.314000e-002</C3>
+#       <D1>3.536000e-002</D1>
+#       <D2>0.000000e+000</D2>
+#       <T1>3.003638e+001</T1>
+#       <T2>-1.399114e-004</T2>
+#       <T3>3.369080e-006</T3>
+#       <T4>4.771450e-009</T4>
+#       <Slope>1.00000000</Slope>
+#       <Offset>0.00000</Offset>
+#       <T5>0.000000e+000</T5>
+#       <AD590M>1.250000e-002</AD590M>
+#       <AD590B>-1.000000e+001</AD590B>
+#     </PressureSensor>
+#   </sensor>
+#   <sensor Channel="4" >
+#     <!-- A/D voltage 0, Oxygen, SBE 43 -->
+#     <OxygenSensor SensorID="38" >
+#       <SerialNumber>0802</SerialNumber>
+#       <CalibrationDate>30-nov-07</CalibrationDate>
+#       <Use2007Equation>0</Use2007Equation>
+#       <CalibrationCoefficients equation="0" >
+#         <!-- Coefficients for Owens-Millard equation. -->
+#         <Boc>0.0000</Boc>
+#         <Soc>3.2360e-001</Soc>
+#         <offset>-0.7018</offset>
+#         <Pcor>1.35e-004</Pcor>
+#         <Tcor>0.0007</Tcor>
+#         <Tau>0.0</Tau>
+#       </CalibrationCoefficients>
+#       <CalibrationCoefficients equation="1" >
+#         <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->
+#         <Soc>0.0000e+000</Soc>
+#         <offset> 0.0000</offset>
+#         <A> 0.0000e+000</A>
+#         <B> 0.0000e+000</B>
+#         <C> 0.0000e+000</C>
+#         <D0> 2.5826e+000</D0>
+#         <D1> 1.96400e-004</D1>
+#         <D2>-4.17760e-002</D2>
+#         <E> 0.0000e+000</E>
+#         <Tau20> 2.0000</Tau20>
+#         <H1>-3.3000e-002</H1>
+#         <H2> 5.0000e+003</H2>
+#         <H3> 1.4500e+003</H3>
+#       </CalibrationCoefficients>
+#     </OxygenSensor>
+#   </sensor>
+#   <sensor Channel="5" >
+#     <!-- A/D voltage 1, Free -->
+#   </sensor>
+#   <sensor Channel="6" >
+#     <!-- A/D voltage 2, Fluorometer, Seapoint -->
+#     <FluoroSeapointSensor SensorID="11" >
+#       <SerialNumber>2987</SerialNumber>
+#       <CalibrationDate>2008</CalibrationDate>
+#       <!-- The following is an array index, not the actual gain setting. -->
+#       <GainSetting>0</GainSetting>
+#       <Offset>0.000</Offset>
+#     </FluoroSeapointSensor>
+#   </sensor>
+#   <sensor Channel="7" >
+#     <!-- A/D voltage 3, Free -->
+#   </sensor>
+# </Sensors>
+# datcnv_date = Feb 23 2016 15:22:48, 7.23.2 [datcnv_vars = 8]
+# datcnv_in = C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\BRUTOS\MCTV001.hex C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\BRUTOS\MCTV001.CON
+# datcnv_skipover = 0
+# datcnv_ox_hysteresis_correction = no
+# datcnv_ox_tau_correction = yes
+# filter_date = Feb 23 2016 15:35:59, 7.23.2
+# filter_in = C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\1-DATACNV\MCTV001.cnv
+# filter_low_pass_tc_A = 0.030
+# filter_low_pass_tc_B = 0.150
+# filter_low_pass_A_vars = t090C c0S/m
+# filter_low_pass_B_vars = prDM
+# alignctd_date = Feb 23 2016 16:08:39, 7.23.2
+# alignctd_in = C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\2-FILTER\MCTV001.cnv
+# alignctd_adv = c0S/m 0.073, sbeox0ML/L 4.000
+# wildedit_date = Feb 25 2016 12:52:01, 7.23.2
+# wildedit_in = C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\3-ALIGN\MCTV001.cnv
+# wildedit_pass1_nstd = 2.0
+# wildedit_pass2_nstd = 20.0
+# wildedit_pass2_mindelta = 1.000e+002
+# wildedit_npoint = 1000
+# wildedit_vars = dz/dtM prDM t090C c0S/m sbeox0ML/L depSM
+# wildedit_excl_bad_scans = yes
+# celltm_date = Feb 25 2016 12:54:44, 7.23.2
+# celltm_in = C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\4-WILDEDIT\MCTV001.cnv
+# celltm_alpha = 0.0300, 0.0000
+# celltm_tau = 7.0000, 0.0000
+# celltm_temp_sensor_use_for_cond = primary,
+# loopedit_date = Feb 25 2016 13:01:16, 7.23.2
+# loopedit_in = C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\6-CELLTM\MCTV001.cnv
+# loopedit_minVelocity = 0.250
+# loopedit_surfaceSoak: minDepth = 5.0, maxDepth = 20, useDeckPress = 1
+# loopedit_excl_bad_scans = yes
+# Derive_date = Feb 25 2016 13:15:05, 7.23.2 [derive_vars = 5]
+# Derive_in = C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\8-LOOPEDIT\MCTV001.cnv C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\BRUTOS\MCTV001.CON
+# binavg_date = Feb 25 2016 14:23:49, 7.23.2
+# binavg_in = C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\7-DERIVE\MCTV001.cnv
+# binavg_bintype = meters
+# binavg_binsize = 1
+# binavg_excl_bad_scans = yes
+# binavg_skipover = 0
+# binavg_surface_bin = no, min = 0.000, max = 0.000, value = 0.000
+# split_date = Feb 25 2016 14:26:22, 7.23.2
+# split_in = C:\Users\Apaluz\Desktop\MARINHA_CHM\Comissoes\PC1481 NHO CRUZEIRO DO SUL - MCT V\POS_PROCESSAMENTO\9-BINAVG\MCTV001.cnv
+# split_excl_bad_scans = yes
+# file_type = ascii
+*END*

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View collection="SEABIRD_COLLECTION_(2016-03-21T21-20-47)" xview="0.18">
+<GeographicMap>
+<MapDomain lat_min="-26.6167" lat_max="-20.4541" lon_min="310.34" lon_max="319.838"/>
+<AutoMapLayerSettings lakes_and_rivers="T" borders="T"/>
+</GeographicMap>
+<MapWindow>
+<Symbol size="1.2" color="1" type="0" small_size="0.4"/>
+<Window>
+<Geometry y_projection="100" x_right="319.838" y_top="-20.4541" y_offset_bb="2.5" x_left="310.34" x_offset_bb="2" y_length_bb="17" x_length_bb="24" y_bottom="-26.6167" x_projection="100"/>
+</Window>
+</MapWindow>
+<IsoSurfaceVariables>
+<!--Scan Count @ Julian Days=first-->
+<IsoVariable var_id="0" surface_var_id="1" surface_value="first"/>
+<!--Julian Days @ Julian Days=first-->
+<IsoVariable var_id="1" surface_var_id="1" surface_value="first"/>
+<!--Descent Rate [m/s] @ Julian Days=first-->
+<IsoVariable var_id="2" surface_var_id="1" surface_value="first"/>
+<!--Pressure, Digiquartz [db] @ Julian Days=first-->
+<IsoVariable var_id="3" surface_var_id="1" surface_value="first"/>
+</IsoSurfaceVariables>
+<CurrentSelection sampleID="0" stationID="2"/>
+</View>

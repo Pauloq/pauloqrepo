@@ -1,0 +1,35 @@
+
+[Application Window]
+Status = 000000ff00000000fd000000010000000100000100000002defc0200000003fb00000016004300750072007200530074006100740069006f006e0100000014000000e50000005f00000113fb00000014004300750072007200530061006d0070006c006501000000ff0000013f0000005f0000013ffb00000010004300750072007200490073006f00760100000244000000ae0000005f000000d1000003bd000002de00000004000000040000000800000008fc00000000
+
+[Good Coverage]
+# Values = 4
+% Values = 20
+Gap Slope = 0.5
+Gap Upper Limit = 700
+Gap@minPrimVar = 175
+
+[Recent]
+ImportDir = /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA
+View = DefaultView.xview
+
+[Sample Matcher]
+AddNonMatchingSamples = 1
+ToleranceFactor = 0.01
+ToleranceLowerBound = 2
+ToleranceOffset = 0
+
+[Station Matcher]
+CheckCruiseLabel = 1
+CheckEdmoCode = 0
+CheckLatitude = 1
+CheckLocalCdiId = 0
+CheckLongitude = 1
+CheckStationLabel = 1
+CheckStationType = 1
+CheckTime = 1
+CruiseAliases = 
+Cruises = 
+LatitudeTolerance = 0.1
+LongitudeTolerance = 0.1
+TimeTolerance = 1

@@ -1,0 +1,2 @@
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/teste4.cnv
+	1 station(s) read from file.
