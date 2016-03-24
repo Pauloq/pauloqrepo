@@ -1,0 +1,3 @@
+with open('teste2.cnv') as inputfile:
+    for line in inputfile:
+        al = line.strip()

@@ -1,0 +1,4 @@
+* NMEA Latitude =
+* NMEA Longitude =
+* NMEA UTC (Time) =
+* Store Lat/Lon Data = Add to Header Only

@@ -1,5 +1,0 @@
-Cruise Label	Cruise ID	Station Count	Sample Count	Station ID Range	Longitude Range	Latitude Range	Time Period	Availability
-								
-All Cruises (1)	0	2	884	1 - 2	314.5°E - 314.5°E	26°S - 26°S	unavailable - unavailable	99999.99999|999
-								
-unknown	1	2	884	1 - 2	314.5°E - 314.5°E	26°S - 26°S	unavailable - unavailable	99999.99999|999
