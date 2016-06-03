@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View xview="0.18" collection="SEABIRD_COLLECTION_(2016-03-29T23-07-13)">
+<GeographicMap>
+<MapDomain lon_min="311.139" lon_max="318.465" lat_min="-29.1413" lat_max="-24.5107"/>
+</GeographicMap>
+<MapWindow>
+<Symbol size="1.2" type="0" small_size="0.4" color="1"/>
+<Window>
+<Geometry y_top="-24.5107" x_projection="100" y_offset_bb="1" y_bottom="-29.1413" y_projection="100" x_offset_bb="1" x_left="311.139" y_length_bb="6.6" x_length_bb="8.5" x_right="318.465"/>
+</Window>
+</MapWindow>
+<PickedStations>
+<Station fill_color="4" line_style="0" sequence_id="1" line_color="4" text_alignment="8" frame_color="4" frame_width="1" symbol_type="-1"/>
+<Station fill_color="2" line_style="0" sequence_id="4" line_color="2" text_alignment="7" frame_color="2" frame_width="1" symbol_type="-1"/>
+</PickedStations>
+<DataWindow>
+<AxisVariables>
+<!--Julian Days-->
+<xAxis is_reversed="F" var_id="1" var_list="1"/>
+<!--Julian Days-->
+<yAxis is_reversed="T" var_id="1" var_list="1"/>
+<!--Julian Days-->
+<zAxis is_reversed="F" var_id="1" var_list="1"/>
+</AxisVariables>
+<Modes window_mode="2" window_type="0" plot_mode="0"/>
+<DataMark size="0.2" color="17"/>
+<Window>
+<Geometry y_top="1e+10" y_offset_bb="9.3" y_bottom="-1e+10" x_offset_bb="3.5" x_left="-1e+10" y_length_bb="9.2" x_length_bb="23" x_right="1e+10"/>
+<ColorScale non_linearity_end="0.125" non_linearity_start="-0.125"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--Julian Days-->
+<xAxis is_reversed="F" var_id="1" var_list="1"/>
+<!--Julian Days-->
+<yAxis is_reversed="T" var_id="1" var_list="1"/>
+</AxisVariables>
+<Modes window_mode="2" window_type="0" plot_mode="0"/>
+<DataMark size="0.2" color="17"/>
+<Window>
+<Geometry y_top="1e+10" y_offset_bb="1.5" y_bottom="-1e+10" x_offset_bb="12" x_left="-1e+10" y_length_bb="5.2" x_length_bb="6" x_right="1e+10"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--Descent Rate [m/s]-->
+<xAxis is_reversed="F" var_id="2" var_list="1"/>
+<!--Julian Days-->
+<yAxis is_reversed="T" var_id="1" var_list="1"/>
+</AxisVariables>
+<Modes window_mode="2" window_type="0" plot_mode="0"/>
+<DataMark size="0.2" color="17"/>
+<Window>
+<Geometry y_top="1e+10" y_offset_bb="1.5" y_bottom="-1e+10" x_offset_bb="21" x_left="-1e+10" y_length_bb="5.2" x_length_bb="6" x_right="1e+10"/>
+</Window>
+</DataWindow>
+<BasicVariables>
+<!--Julian Days-->
+<Variable max_value="169" min_value="164" var_id="1"/>
+</BasicVariables>
+<IsoSurfaceVariables>
+<!--Scan Count @ Julian Days=first-->
+<IsoVariable surface_value="first" var_id="0" surface_var_id="1"/>
+<!--Julian Days @ Julian Days=first-->
+<IsoVariable surface_value="first" var_id="1" surface_var_id="1"/>
+<!--Descent Rate [m/s] @ Julian Days=first-->
+<IsoVariable surface_value="first" var_id="2" surface_var_id="1"/>
+<!--Pressure, Digiquartz [db] @ Julian Days=first-->
+<IsoVariable surface_value="first" var_id="3" surface_var_id="1"/>
+<!--Pressure, Digiquartz [db] @ Temperature [ITS-90, deg C]=first-->
+<IsoVariable surface_value="first" var_id="3" surface_var_id="4"/>
+</IsoSurfaceVariables>
+</View>

@@ -1,0 +1,28 @@
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV001.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV002.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV003.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV004.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV006.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV007.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV008.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV009.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV010.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV011.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV012.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV013.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV017.cnv
+	1 station(s) read from file.
+ADD file: /home/pauloque/programacao/pauloqrepo/jupyter/NEMEA/cnv_final/cnv_final/out_dMCTV020.cnv
+	1 station(s) read from file.

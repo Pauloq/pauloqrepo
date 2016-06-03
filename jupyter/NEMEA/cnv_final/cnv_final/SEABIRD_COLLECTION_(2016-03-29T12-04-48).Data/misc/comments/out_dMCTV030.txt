@@ -1,0 +1,103 @@
+* Sea-Bird SBE 19plus V2 Data File:
+* FileName = D:\ACEX_ctd\brutos\MCTV030.hex
+* Software Version Seasave V 7.17
+* Temperature SN = 6161
+* Conductivity SN = 6161
+* System UpLoad Time = Jun 19 2012 22:39:02
+* NMEA UTC (Time) = Jun 19 2012 22:39:02
+* NMEA Longitude =  052 09.61 W
+* NMEA Latitude =  33 37.99 S
+** H38 
+** NHo Cruzeiro do Sul 
+** 222 
+** MCT V 
+**   030
+**   33 37.99 S
+**   052 09.61 W
+**   20/06/2012 01:29 Z
+**   69
+** 9P46375-0882 
+**   1T Oliveira Santos
+# nquan = 14
+# nvalues = 62                          
+# units = specified
+# name 0 = scan: Scan Count
+# name 1 = timeJ: Julian Days
+# name 2 = dz/dtM: Descent Rate [m/s]
+# name 3 = prdM: Pressure, Strain Gauge [db]
+# name 4 = tv290C: Temperature [ITS-90, deg C]
+# name 5 = c0S/m: Conductivity [S/m]
+# name 6 = depSM: Depth [salt water, m]
+# name 7 = oxsatML/L: Oxygen Saturation [ml/l]
+# name 8 = flSP: Fluorescence, Seapoint
+# name 9 = potemp090C: Potential Temperature [ITS-90, deg C]
+# name 10 = sal00: Salinity [PSU]
+# name 11 = density00: Density [density, Kg/m^3]
+# name 12 = oxsatML/L: Oxygen Saturation [ml/l]
+# name 13 = flag: flag
+# span 0 =        415,        985       
+# span 1 = 171.944970, 171.946621       
+# span 2 =      0.088,      0.980       
+# span 3 =      3.250,     64.259       
+# span 4 =    14.4927,    15.1777       
+# span 5 =   3.898239,   4.176610       
+# span 6 =      3.000,     64.000       
+# span 7 =    5.71004,    5.85873       
+# span 8 = 2.0182e-01, 3.0620e+00       
+# span 9 =    14.4921,    15.1708       
+# span 10 =    31.8487,    33.7988      
+# span 11 =  1023.6655,  1025.3159      
+# span 12 =    5.70998,    5.85872      
+# span 13 = 0.0000e+00, 0.0000e+00      
+# interval = meters: 1                  
+# start_time = Jun 19 2012 22:39:02
+# bad_flag = -9.990e-29
+# sensor 0 = Frequency 0  temperature, 6161, 21-Oct-08
+# sensor 1 = Frequency 1  conductivity, 6161, 21-Oct-08, cpcor = -9.5700e-08
+# sensor 2 = Pressure Number
+# sensor 3 = Extrnl Volt  0  Fluorometer, Seapoint, primary
+# sensor 4 = Extrnl Volt  2  altimeter
+# datcnv_date = Jun 20 2012 15:35:00, 7.17
+# datcnv_in = D:\ACEX_ctd\brutos\MCTV030.hex D:\ACEX_ctd\arqconfig\AC6161.con
+# datcnv_skipover = 1
+# filter_date = Jun 20 2012 15:41:15, 7.17
+# filter_in = D:\ACEX_ctd\dat cnv\MCTV030.cnv
+# filter_low_pass_tc_A = 1.000
+# filter_low_pass_tc_B = 0.150
+# filter_low_pass_A_vars = prdM flSP
+# filter_low_pass_B_vars = c0S/m
+# alignctd_date = Jun 20 2012 15:41:32, 7.17
+# alignctd_in = D:\ACEX_ctd\filter\MCTV030.cnv
+# alignctd_adv = c0S/m -0.010                                                                                                                                                                                                        
+# wildedit_date = Jun 20 2012 15:41:47, 7.17
+# wildedit_in = D:\ACEX_ctd\align\MCTV030.cnv
+# wildedit_pass1_nstd = 2.0
+# wildedit_pass2_nstd = 20.0
+# wildedit_pass2_mindelta = 1.000e+002
+# wildedit_npoint = 1000
+# wildedit_vars = dz/dtM prdM tv290C c0S/m oxsatML/L flSP
+# wildedit_excl_bad_scans = yes
+# celltm_date = Jun 20 2012 15:42:08, 7.17
+# celltm_in = D:\ACEX_ctd\wildedit\MCTV030.cnv
+# celltm_alpha = 0.0300, 0.0000
+# celltm_tau = 7.0000, 0.0000
+# celltm_temp_sensor_use_for_cond = primary, 
+# loopedit_date = Jun 20 2012 15:42:21, 7.17
+# loopedit_in = D:\ACEX_ctd\celltm\MCTV030.cnv
+# loopedit_minVelocity = 0.250                                                                                            
+# loopedit_surfaceSoak: minDepth = 5.0, maxDepth = 20, useDeckPress = 1                                                   
+# loopedit_excl_bad_scans = yes
+# Derive_date = Jun 20 2012 15:42:38, 7.17
+# Derive_in = D:\ACEX_ctd\loopedit\MCTV030.cnv C:\Documents and Settings\Coleta\Desktop\Nova pasta\6161.con
+# binavg_date = Jun 20 2012 15:42:52, 7.17
+# binavg_in = D:\ACEX_ctd\derive\MCTV030.cnv
+# binavg_bintype = meters
+# binavg_binsize = 1
+# binavg_excl_bad_scans = yes
+# binavg_skipover = 0
+# binavg_surface_bin = no, min = 0.000, max = 0.000, value = 0.000
+# split_date = Jun 20 2012 15:43:23, 7.17
+# split_in = D:\ACEX_ctd\binavg\MCTV030.cnv
+# split_excl_bad_scans = yes
+# file_type = ascii
+*END*

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View xview="0.18" collection="SEABIRD_COLLECTION_(2016-03-29T12-04-48)">
+<GeographicMap>
+<MapDomain lon_min="310.07" lon_max="312.735" lat_min="-26.7014" lat_max="-25.0025"/>
+</GeographicMap>
+<MapWindow>
+<Symbol color="1" type="0" small_size="0.4" size="1.2"/>
+<Window>
+<Geometry x_length_bb="24" x_left="310.07" y_bottom="-26.7014" y_top="-25.0025" x_projection="100" y_offset_bb="2.5" y_projection="100" x_offset_bb="2" x_right="312.735" y_length_bb="17"/>
+</Window>
+</MapWindow>
+<BasicVariables>
+<!--Julian Days-->
+<Variable var_id="1" max_value="172" min_value="164"/>
+</BasicVariables>
+<IsoSurfaceVariables>
+<!--Scan Count @ Julian Days=first-->
+<IsoVariable var_id="0" surface_var_id="1" surface_value="first"/>
+<!--Julian Days @ Julian Days=first-->
+<IsoVariable var_id="1" surface_var_id="1" surface_value="first"/>
+<!--Descent Rate [m/s] @ Julian Days=first-->
+<IsoVariable var_id="2" surface_var_id="1" surface_value="first"/>
+<!--Pressure, Digiquartz [db] @ Julian Days=first-->
+<IsoVariable var_id="3" surface_var_id="1" surface_value="first"/>
+<!--Pressure, Digiquartz [db] @ Temperature [ITS-90, deg C]=first-->
+<IsoVariable var_id="3" surface_var_id="4" surface_value="first"/>
+<!--Temperature [ITS-90, deg C] @ Temperature [ITS-90, deg C]=first-->
+<IsoVariable var_id="4" surface_var_id="4" surface_value="first"/>
+</IsoSurfaceVariables>
+<CurrentSelection sampleID="0" stationID="5"/>
+</View>
