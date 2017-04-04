@@ -1,0 +1,19 @@
+ 
+********* Comandos a serem lembrados sempre ************
+
+ls
+ git push origin master
+ git pull origin master
+ git commit -m'eiiii' 
+git status
+ git add -A
+jupyter notebook
+git log
+ git config user.email pauloquerj@gmail.com
+git config user.name "Pauloq"
+conda install pandas
+cd
+cd ..
+git clone https://github.com/Pauloq/pauloqrepo.git
+ git init
+pwd
